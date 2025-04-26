@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Images\cc.png" />
+    <None Remove="Assets\Images\filter.png" />
+    <None Remove="Assets\Images\micro_filter.png" />
+    <None Remove="Assets\Images\pump.png" />
+    <None Remove="Assets\Images\tank.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="S7netplus" Version="0.20.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Images\cc.png" />
+    <Resource Include="Assets\Images\filter.png" />
+    <Resource Include="Assets\Images\micro_filter.png" />
+    <Resource Include="Assets\Images\pump.png" />
+    <Resource Include="Assets\Images\tank.png" />
+  </ItemGroup>
+
+</Project>

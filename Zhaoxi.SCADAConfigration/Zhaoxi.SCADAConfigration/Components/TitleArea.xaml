@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="Zhaoxi.SCADAConfigration.Components.TitleArea"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Zhaoxi.SCADAConfigration.Components"
+             mc:Ignorable="d" 
+             d:DesignHeight="55" d:DesignWidth="720">
+    <Grid ClipToBounds="True">
+        <Path Data="M0,0 30,25 120,25 180,55 540,55 600,25 690,25 720,0z" Stroke="#5580D5FC" StrokeThickness="0.5">
+            <Path.Fill>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                    <GradientStop Color="#071521" Offset="0"/>
+                    <GradientStop Color="#4DAAC8" Offset="1.2"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+
+        <Border Width="100" BorderBrush="Black" BorderThickness="1.3" Background="#80D5FC" Height="8"
+                CornerRadius="4" VerticalAlignment="Bottom" Margin="0,0,0,-4"/>
+
+        <Border Height="0.5" Background="#80D5FC" Width="90" VerticalAlignment="Top" 
+                HorizontalAlignment="Left" Margin="45,13"/>
+        <Border Height="0.5" Background="#80D5FC" Width="90" VerticalAlignment="Top" 
+                HorizontalAlignment="Right" Margin="45,13"/>
+
+        <TextBlock Text="{Binding Header,RelativeSource={RelativeSource AncestorType=UserControl}}"
+                   VerticalAlignment="Center" HorizontalAlignment="Center"
+                   FontSize="26" Foreground="#DBFFFF" FontFamily="YouYuan"/>
+    </Grid>
+</UserControl>

@@ -1,0 +1,59 @@
+﻿<UserControl x:Class="Zhaoxi.SCADA.Demo.Components.Pump"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Zhaoxi.SCADA.Demo.Components"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Viewbox>
+        <Canvas Width="1000" Height="1000">
+            <Path Data="M996 609.4a80.24 80.24 0 0 1-80 80h-76a80.24 80.24 0 0 1-80-80v-175.2a80.24 80.24 0 0 1 80-80h76a80.24 80.24 0 0 1 80 80z" Fill="#99ABB9"/>
+            <Path Data="M996 609.4a80.24 80.24 0 0 1-80 80h-76a80.24 80.24 0 0 1-80-80V572a80.24 80.24 0 0 1 80-80h76a80.24 80.24 0 0 1 80 80z" Fill="#435A76"/>
+            <Path Data="M759.8 466.6h236v120.8h-236z" Fill="#70899D"/>
+            <Path Data="M336 205.4a12.32 12.32 0 0 1 12 12v0.8a12 12 0 0 1-12 12H192a12 12 0 0 1-12-12v-0.8a12.32 12.32 0 0 1 12-12z" Fill="#293848"/>
+            <Path Data="M336 205.4a12.32 12.32 0 0 1 12 12v0.8a12 12 0 0 1-12 12H192a12 12 0 0 1-12-12v-0.8a12.32 12.32 0 0 1 12-12z" Fill="#445E78"/>
+            <Path Data="M37.8 597a12 12 0 0 1-12 12h-0.8a12 12 0 0 1-12-12v-144.4a12 12 0 0 1 12-12h0.8a12 12 0 0 1 12 12z" Fill="#293848"/>
+            <Path Data="M37.8 597a12 12 0 0 1-12 12h-0.8a12 12 0 0 1-12-12v-144.4a12 12 0 0 1 12-12h0.8a12 12 0 0 1 12 12z" Fill="#445E78"/>
+            <Path Data="M37.8 466.6h106.4v14.8H37.8z" Fill="#70899D"/>
+            <Path Data="M37.8 572.6h106.4v14.8H37.8z" Fill="#435A76"/>
+            <Path Data="M37.8 481.4h106.4v45.6H37.8z" Fill="#99ABB9"/>
+            <Path Data="M37.8 527h106.4v45.6H37.8zM204.56 230h14.8v106.4h-14.8z" Fill="#70899D"/>
+            <Path Data="M310.52 229.96h14.8v106.4h-14.8z" Fill="#435A76"/>
+            <Path Data="M219.6 230.24h45.6v106.4H219.6z" Fill="#99ABB9"/>
+            <Path Data="M265.12 230.12h45.6v106.4h-45.6zM381 378.2h106.4v36.4h-106.4z" Fill="#70899D"/>
+            <Path Data="M381 635.8h106.4v36.4h-106.4z" Fill="#435A76"/>
+
+            <Path Data="M381 414.6h106.4v110.8h-106.4z" Fill="#99ABB9"></Path>
+            <Path Data="M381 525.4h106.4v110.8h-106.4z" Fill="#70899D"></Path>
+            <Path Data="M507 354.6h350v23.2h-350z" Fill="#99ABB9"></Path>
+            <Path Data="M507 377.4h350v23.2h-350z" Fill="#70899D"></Path>
+            <Path Data="M507 400.6h350v23.2h-350z" Fill="#99ABB9"></Path>
+            <Path Data="M507 423.4h350v23.2h-350z" Fill="#70899D"></Path>
+            <Path Data="M507 446.6h350v23.2h-350z" Fill="#99ABB9"></Path>
+            <Path Data="M507 469.4h350v23.2h-350z" Fill="#435A76"></Path>
+            <Path Data="M507 492.6h350v23.2h-350z" Fill="#70899D"></Path>
+            <Path Data="M507 516.2h350v23.2h-350z" Fill="#435A76"></Path>
+            <Path Data="M507 539.4h350v23.2h-350z" Fill="#70899D"></Path>
+            <Path Data="M507 561h350v23.2h-350z" Fill="#435A76"></Path>
+            <Path Data="M507 582.6h350v26.4h-350z" Fill="#293848"></Path>
+            <Path Data="M507 609h350v23.2h-350z" Fill="#435A76"></Path>
+            <Path Data="M507 632.2h350v23.2h-350z" Fill="#293848"></Path>
+            <Path Data="M507 655h350v23.2h-350z" Fill="#435A76"></Path>
+            <Path Data="M507 678.2h350v23.2h-350z" Fill="#293848"></Path>
+            <Path Data="M507 724.6a12 12 0 0 1-12 12H480a12 12 0 0 1-12-12v-399.2a12.32 12.32 0 0 1 12-12h15.2a12 12 0 0 1 12 12z" Fill="#293848"></Path>
+            <Path Data="M507 724.6a12 12 0 0 1-12 12H480a12 12 0 0 1-12-12v-399.2a12.32 12.32 0 0 1 12-12h15.2a12 12 0 0 1 12 12z" Fill="#445E78"></Path>
+            <Path Data="M877 697.4a12 12 0 0 1-12 12h-3.2a12 12 0 0 1-12-12v-348.8a12 12 0 0 1 12-12h3.2a12 12 0 0 1 12 12z" Fill="#293848"></Path>
+            <Path Data="M877 697.4a12 12 0 0 1-12 12h-3.2a12 12 0 0 1-12-12v-348.8a12 12 0 0 1 12-12h3.2a12 12 0 0 1 12 12z" Fill="#445E78"></Path>
+            <Path Data="M745.8 695.4h93.2v74h-93.2zM59 791.4h952v27.2h-952z" Fill="#293848"></Path>
+            <Path Data="M715.8 769.4h154.4v22h-154.4z" Fill="#445E78"></Path>
+            <Path Data="M217.8 695.4h93.2v74h-93.2z" Fill="#293848"></Path>
+            <Path Data="M187.8 769.4h154.4v22h-154.4z" Fill="#445E78"></Path>
+            <Path Data="M345.8 726.6h-164a40 40 0 0 1-40-40v-324a40 40 0 0 1 40-40h164a40 40 0 0 1 40 40v324a40 40 0 0 1-40 40z" Fill="#435A76">
+            </Path>
+            <Path Data="M996 424.6a33.68 33.68 0 0 0-20 30.8v131.6a34.56 34.56 0 0 0 20 30.8z" Fill="#293848"></Path>
+            <Path Data="M141.8 378.2h244v56.8h-244z" Fill="#70899D"></Path>
+            <Path Data="M141.8 434.2h244v56.8h-244z" Fill="#445E78"></Path>
+        </Canvas>
+    </Viewbox>
+</UserControl>
